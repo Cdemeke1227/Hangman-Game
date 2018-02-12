@@ -1,0 +1,47 @@
+
+
+body {
+    background-color: black;
+
+}
+header {
+    background: black;
+    /* border: 1px solid blue; */
+    text-align: center;
+    color: white;
+    height: 100px;;
+}
+
+.container {
+    background-image: url("../images/comic_background.jpg");
+}
+div {
+    /* background: grey; */
+    color: black;
+}
+.col-md-6 {
+    border: 1px solid green;
+}
+.row {
+    border: 1px solid red;
+}
+.wrapper {
+    height: 600px;
+}
+
+.wordBlanks {
+    color: red;
+
+}
+
+.gameTile {
+    background: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+letters.innerHTML = blankSpaces;
