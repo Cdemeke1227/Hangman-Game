@@ -1,7 +1,18 @@
 # Hangman-Game
+
 This is a Hangman game created using HTML, CSS, and javascript.
 
-#Game Play
-*The game will prompt the user with a random word from an array. 
-*The user must guess the word by typeing letters and watching them appear in the blanks.  
-*If the user get 10 wrong letters the game will end.
+## Getting Started
+git clone https://github.com/Cdemeke1227/Hangman-Game.git
+cd Hangman-Game
+open inde.html
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Authors
+
+* **Christopher Demeke** - *Initial work* - [Cdemeke1227](https://github.com/Cdemeke1227)
