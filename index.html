@@ -13,51 +13,76 @@
 </head>
 
 <body>
-    <header>
-        <h1> Superhero Hangman Game</h1>
-    </header>
 
     <div class="container">
-        <div class="row">
-
-            <div class="col-md-6 ">
-                <!-- <p>Have Fun</p> -->
-                <div class="row gameTile">
-                    <p>Press any key to get started!</p>
-                </div>
-                <div class="row gameTile">
-                    <p>Wins:(# of times user guessed the word correctly.)</p>
-                </div>
-                <div class="row gameTile">
-                    <p id="wordPlaceholder"></p>
-                    <ul id="letters"> </ul>
-                </div>
-                <div class="row gameTile">
-                    <p id="guessesRem">Number of Guesses Remaining</p>
-                </div>
-                <div class="row gameTile">
-                    <p id="oldGuesses">Letters already guessed</p>
-                </div>
-
+        <div class="row topspot">
+            <div class="masthead">
+                <h1>Superhero Hangman Game</h1>
             </div>
-
-            <div class="col-md-6 wrapper">
+        </div>
+        <div class="row">
+            <div class="col-sm-3 wrapper">
                 <div class="row">
-                
-
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="row startTile">
+                    <h2>Press any key to get started.</h2>
+                </div>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="row gameTile">
+                    <div class="col-sm-2 blankSide ">
+                    </div>
+                    <div class="col-sm-8 blanksdiv ">
+                        <p class="blankSpace"></p>
+                    </div>
+                    <div class="col-sm-2 blankSide ">
                     </div>
                 </div>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="row gameTile">
+                    <div class="col-sm-4 ">
+                        <p>Wrong:</p>
+                    </div>
+                    <div class="col-sm-8 ">
+                        <p class="wrongGuess"></p>
+                    </div>
+                </div>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="row gameTile">
+                    <div class="col-sm-4 ">
+                        <p>Guess:</p>
+                    </div>
+                    <div class="col-sm-8 ">
+                        <p id="guessCount"></p>
+                    </div>
+                </div>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+                <div class="row gameTile">
+                    <div class="col-sm-4 ">
+                        <p>Wins:</p>
+                    </div>
+                    <div class="col-sm-8 win">
+                        <p id="winCount"></p>
+                    </div>
+                </div>
+                <!-- ****************************** -->
+                <!-- ****************************** -->
+
             </div>
-
+            <div class="col-sm-3 wrapper">
+                <div class="row">
+                </div>
+            </div>
+            <!-- ****************************** -->
         </div>
-
     </div>
-
-
-
-
+    </div>
     <script src="./assets/javascript/game.js"></script>
-
 </body>
 
 </html>
